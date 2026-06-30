@@ -153,3 +153,62 @@ button {
     margin-right: 390px;
     margin-bottom: 1500px;
 }
+
+/* contetn4 */
+.content4 {
+    display: flex;
+    margin-top:140px;
+    justify-content: space-around;;
+    height: 320px;
+    background-color: white;
+}
+
+.call {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #3882f6;
+    height: 200px;
+    width: 1200px;
+    border-style:none;
+    border-radius:10px;
+}
+
+.action {
+    font-size:15px;
+    font-family: 'Roboto';
+    color: white;
+    text-align: start;
+    margin-left: 12%;
+    margin-top: 50px;
+}
+
+.abutton {
+ 
+    font-size: 209px;
+    font-weight: 34px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+    transform:translateY(-75px);
+    align-items: start;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-right: 70px;
+    
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85px;
+    background-color:#1F2937;
+    margin-bottom: 0px
+
+}
+
+.copyright {
+    color: white;
+    font-family: 'Roboto';
+}
