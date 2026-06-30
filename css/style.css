@@ -1,5 +1,8 @@
 
+/* header */
+
 .header{
+    flex-wrap: wrap;
     font-family:'Roboto';
     color: #F9FAF8;
     display: flex;
@@ -7,24 +10,34 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 35px;
+    margin-left: 9.5%;
+    margin-right: 12%;
 }
 .logo {
     margin-left: 60px;
 }
+
+/* content1 */
+
 .hero {
     background-color: #1F2937;
     padding-bottom: 60px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
 }
 
 ul {
     list-style-type: none;
     display: flex;
     padding: 10px;
-
 }
 
 li {
     padding: 7px;
+    text-align: center
 }
 
 a {
@@ -35,7 +48,7 @@ a {
     display:flex;
     justify-content: space-around;
     align-items: start;
-    flex:auto
+    flex:auto;
 
 }
 
@@ -77,4 +90,46 @@ button {
     display: flex;
     background-color: #3882F6;
     border-radius: 8px;
+}
+
+/* content2 */
+
+.random{
+    margin-bottom: -15px;
+
+}
+.content2 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family:'Roboto';
+    display: flex;
+    margin-top: 20px;
+}
+
+.illustrations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.ex1{
+    margin-bottom: 10px;
+    height: 175px;
+    width: 175px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #3882F6;
+    border-radius: 10px;
+    background-color: white;
+}
+
+
+/* content3 */
+
+.content3 {
+    background-color: #E5E7Eb;
+    height: 330px;
+    
 }
