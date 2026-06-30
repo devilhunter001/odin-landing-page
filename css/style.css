@@ -129,7 +129,27 @@ button {
 /* content3 */
 
 .content3 {
+    display: flex;
     background-color: #E5E7Eb;
-    height: 330px;
-    
+    height: 320px;
+    justify-content: baseline;
+    flex-direction: column;
+}
+
+.quote {
+    font-family: 'Roboto';
+    margin-left: 350px;
+    margin-right: 350px;
+    font-weight: 300;
+    text-align:inherit;
+    font-size: 35px;
+
+}
+
+.thor {
+    font-size:20px;
+    font-family: 'Roboto';
+    text-align: end;
+    margin-right: 390px;
+    margin-bottom: 1500px;
 }
